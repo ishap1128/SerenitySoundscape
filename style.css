@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background: #99cccc;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #99cccc;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none; /* Optional: Removes underline from links */
+}
+
+.video-container {
+    display: block;
+    margin: 20px auto;
+    max-width: 70%; /* Adjust based on your preference for video size */
+    background-color: #b2cab1; /* Sage green background */
+    padding: 20px; /* Creates the wide box effect around the video */
+    box-sizing: border-box;
+    border-radius: 10px; /* Optional: adds rounded corners to the box */
+}
+
+video {
+    display: block;
+    width: 100%; /* Makes the video responsive within the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* New styles for the Explore Sounds button */
+.explore-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.explore-button a {
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.explore-button a:hover {
+    background-color: #005f5f;
+}
